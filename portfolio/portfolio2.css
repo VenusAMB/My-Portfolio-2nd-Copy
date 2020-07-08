@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /*inputs*/
+  input[type=text], sleect, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #cccccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+
+  input[type=submit] {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+
+  /*column float*/
+  .column {
+      float:left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+  }
+
+  /*Clear floats p column*/
+  .row:after {
+      content:"";
+      display:table;
+      clear: both;
+  }
+
+  /*body*/ 
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
